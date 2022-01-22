@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tailwindcss</title>
+  <!-- font awesome css -->
+  <link rel="stylesheet" href="styles/all.min.css">
+  <link rel="stylesheet" href="styles/fontawesome.min.css">
+  <!-- tailwind css  -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            penguin:'#FFFBF0',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    <header class=" container mx-auto ">
+        <div class="bg-penguin sm:flex pb-32 pt-12 items-center">
+            <div>
+              <h1 class="text-xl font-bold uppercase sm:text-3xl">
+                <span class="text-yellow-300 ">Be the penguin  </span> of winter
+                </h1>
+                <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel voluptate soluta dicta ut aliquam non.</p>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2    px-4 rounded">
+                  <i class="fas fa-cart-plus"></i>
+                  Buy Now
+                </button>
+                  
+            </div>
+            <div>
+              <img src="images/model.png" alt="girl-pic" class="object-cover w-1/2 sm:w-full" >
+            </div>
+        </div>
+        
+    </head>
+    <main class="container mx-auto">
+      <!--start woman jackets  -->
+      <section class="woman-jacket">
+            <div class="grid grid-cols-3 gap-8">
+                <div class="py-4">
+                  <img src="images/jacket-1.png" alt="girl-pic" class="object-cover  bg-slate-50 p-4 rounded-2xl" >
+                  <h2 class="text-3xl py-4"> jacket 1</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia explicabo exercitationem est, animi officia quibusdam?</p>
+                  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2    px-4 rounded">
+                    <i class="fas fa-cart-plus"></i>
+                    Buy Now
+                  </button>
+                </div>
+                <div class="py-4">
+                  <img src="images/jacket-2.png" alt="girl-pic" class="object-cover  bg-slate-50 p-4 rounded-2xl" >
+                  <h2 class="text-3xl py-4"> jacket 1</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia explicabo exercitationem est, animi officia quibusdam?</p>
+                  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2    px-4 rounded">
+                    <i class="fas fa-cart-plus"></i>
+                    Buy Now
+                  </button>
+                </div>
+                <div class="py-4">
+                  <img src="images/jacket-3.png" alt="girl-pic" class="object-cover  bg-slate-50 p-4 rounded-2xl" >
+                  <h2 class="text-3xl py-4"> jacket 1</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia explicabo exercitationem est, animi officia quibusdam?</p>
+                  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2    px-4 rounded">
+                    <i class="fas fa-cart-plus"></i>
+                    Buy Now
+                  </button>
+                </div>
+
+            </div>
+            
+      </section>
+      <section class="man-jacket">
+        <h2 class="text-3xl">Woman Jacket</h2>
+        <div class="grid grid-cols-3 gap-8">
+            <div class="py-4">
+              <img src="images/jacket-4.png" alt="girl-pic" class="object-cover  bg-slate-50 p-4 rounded-2xl" >
+              <h2 class="text-3xl py-4"> jacket 1</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia explicabo exercitationem est, animi officia quibusdam?</p>
+              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2    px-4 rounded">
+                <i class="fas fa-cart-plus"></i>
+                Buy Now
+              </button>
+            </div>
+            <div class="py-4">
+              <img src="images/jacket-5.png" alt="girl-pic" class="object-cover  bg-slate-50 p-4 rounded-2xl" >
+              <h2 class="text-3xl py-4"> jacket 1</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia explicabo exercitationem est, animi officia quibusdam?</p>
+              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2    px-4 rounded">
+                <i class="fas fa-cart-plus"></i>
+                Buy Now
+              </button>
+            </div>
+            <div class="py-4">
+              <img src="images/jacket-6.png" alt="girl-pic" class="object-cover  bg-slate-50 p-4 rounded-2xl" >
+              <h2 class="text-3xl py-4"> jacket 1</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia explicabo exercitationem est, animi officia quibusdam?</p>
+              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2    px-4 rounded">
+                <i class="fas fa-cart-plus"></i>
+                Buy Now
+              </button>
+            </div>
+
+        </div>
+        
+  </section>
+
+    </main>
+    
+
+</body>
+</html>
