@@ -16,7 +16,7 @@
           colors: {
             clifford: '#da373d',
             penguin:'#FFFBF0',
-            price:'#FFFBF0',
+            price:'#FABE4C',
           }
         }
       }
@@ -25,9 +25,9 @@
 </head>
 <body>
     <header class=" container mx-auto ">
-        <div class="bg-penguin sm:flex pb-32 pt-12 justify-between">
-            <div>
-              <h1 class="text-xl font-bold uppercase sm:text-3xl">
+        <div class="bg-penguin sm:flex pb-32 pt-12 justify-around items-center">
+            <div class="">
+              <h1 class="text-xl font-bold uppercase sm:text-5xl">
                 <span class="text-yellow-300 ">Be the penguin  </span> of winter
                 </h1>
                 <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel voluptate soluta dicta ut aliquam non.</p>
@@ -37,87 +37,146 @@
                 </button>
             </div>
             <div>
-              <img src="images/model.png" alt="girl-pic" class="object-cover w-1/2 sm:w-full" >
+              <img src="images/model.png" alt="girl-pic" class="object-cover sm:w-full" >
             </div>
         </div>
         
     </head>
     <main class="container mx-auto">
       <!--start woman jackets  -->
-      <section class="woman-jacket">
-        <h2 class="text-2xl">Woman Jacket</h2>
-            <div class="grid grid-cols-3 gap-8">
-                <div class="py-4 shadow-lg">
+      <section class="woman-jacket my-16 ">
+        <h2 class="text-5xl">Woman Jacket</h2>
+            <div class=" grid-cols-3 gap-8 my-16 sm:grid">
+                <div class="p-5 shadow-lg rounded-xl">
                   <img src="images/jacket-1.png" alt="girl-pic" class="object-cover  bg-slate-50 p-4 rounded-2xl" >
                   <h2 class="text-3xl py-4"> jacket 1</h2>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia explicabo exercitationem est, animi officia quibusdam?</p>
-                  <div>
-                    <h2 class="text-5xl text-yellow-300">
+                  <div class="flex justify-between pt-10">
+                      <h2 class="text-5xl text-price">
+                        $249
+                      </h2>
+                      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2    px-4 rounded">
+                        <i class="fas fa-cart-plus"></i>
+                        Buy Now
+                      </button>
+                  </div>
+                </div>
+                <div class="p-5 shadow-2xl rounded-xl">
+                  <img src="images/jacket-2.png" alt="girl-pic" class="object-cover  bg-slate-50 p-4 rounded-2xl" >
+                  <h2 class="text-3xl py-4"> jacket 1</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia explicabo exercitationem est, animi officia quibusdam?</p>
+                  <div class="flex justify-between pt-10">
+                    <h2 class="text-5xl text-price">
                       $249
                     </h2>
                     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2    px-4 rounded">
                       <i class="fas fa-cart-plus"></i>
                       Buy Now
                     </button>
-
-                  </div>
-
                 </div>
-                <div class="py-4">
-                  <img src="images/jacket-2.png" alt="girl-pic" class="object-cover  bg-slate-50 p-4 rounded-2xl" >
-                  <h2 class="text-3xl py-4"> jacket 1</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia explicabo exercitationem est, animi officia quibusdam?</p>
-                  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2    px-4 rounded">
-                    <i class="fas fa-cart-plus"></i>
-                    Buy Now
-                  </button>
                 </div>
-                <div class="py-4">
+                <div class="p-5 shadow-2xl rounded-xl">
                   <img src="images/jacket-3.png" alt="girl-pic" class="object-cover  bg-slate-50 p-4 rounded-2xl" >
                   <h2 class="text-3xl py-4"> jacket 1</h2>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia explicabo exercitationem est, animi officia quibusdam?</p>
-                  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2    px-4 rounded">
-                    <i class="fas fa-cart-plus"></i>
-                    Buy Now
-                  </button>
+                  <div class="flex justify-between pt-10">
+                    <h2 class="text-5xl text-price">
+                      $249
+                    </h2>
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2    px-4 rounded">
+                      <i class="fas fa-cart-plus"></i>
+                      Buy Now
+                    </button>
                 </div>
-
+                </div>
             </div>
-            
       </section>
-      <section class="man-jacket">
+      <section class="man-jacket my-16 ">
         <h2 class="text-3xl">Woman Jacket</h2>
-        <div class="grid grid-cols-3 gap-8">
-            <div class="py-4">
+        <div class="sm:grid grid-cols-3 gap-8 my-16">
+            <div class="p-5 shadow-2xl rounded-2xl">
               <img src="images/jacket-4.png" alt="girl-pic" class="object-cover  bg-slate-50 p-4 rounded-2xl" >
               <h2 class="text-3xl py-4"> jacket 1</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia explicabo exercitationem est, animi officia quibusdam?</p>
-              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2    px-4 rounded">
-                <i class="fas fa-cart-plus"></i>
-                Buy Now
-              </button>
+              <div class="flex justify-between pt-10">
+                <h2 class="text-5xl text-price">
+                  $249
+                </h2>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2    px-4 rounded">
+                  <i class="fas fa-cart-plus"></i>
+                  Buy Now
+                </button>
             </div>
-            <div class="py-4">
-              <img src="images/jacket-5.png" alt="girl-pic" class="object-cover  bg-slate-50 p-4 rounded-2xl" >
-              <h2 class="text-3xl py-4"> jacket 1</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia explicabo exercitationem est, animi officia quibusdam?</p>
-              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2    px-4 rounded">
-                <i class="fas fa-cart-plus"></i>
-                Buy Now
-              </button>
             </div>
-            <div class="py-4">
-              <img src="images/jacket-6.png" alt="girl-pic" class="object-cover  bg-slate-50 p-4 rounded-2xl" >
-              <h2 class="text-3xl py-4"> jacket 1</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia explicabo exercitationem est, animi officia quibusdam?</p>
-              <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2    px-4 rounded">
-                <i class="fas fa-cart-plus"></i>
-                Buy Now
-              </button>
+            <div class="p-5 shadow-2xl rounded-2xl">
+                  <img src="images/jacket-5.png" alt="girl-pic" class="object-cover  bg-slate-50 p-4 rounded-2xl" >
+                  <h2 class="text-3xl py-4"> jacket 1</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia explicabo exercitationem est, animi officia quibusdam?</p>
+                  <div class="flex justify-between pt-10">
+                    <h2 class="text-5xl text-price">
+                      $249
+                    </h2>
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2    px-4 rounded">
+                      <i class="fas fa-cart-plus"></i>
+                      Buy Now
+                    </button>
+                </div>
+            </div>
+            <div class="p-5 shadow-2xl rounded-2xl">
+                  <img src="images/jacket-6.png" alt="girl-pic" class="object-cover  bg-slate-50 p-4 rounded-2xl" >
+                  <h2 class="text-3xl py-4"> jacket 6</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia explicabo exercitationem est, animi officia quibusdam?</p>
+                  <div class="flex justify-between pt-10">
+                    <h2 class="text-5xl text-price">
+                      $249
+                    </h2>
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2    px-4 rounded">
+                      <i class="fas fa-cart-plus"></i>
+                      Buy Now
+                    </button>
+                </div>
             </div>
 
         </div>
         
+  </section>
+  <!-- shoping section  -->
+  <section class="container mx-auto my-32">
+        <div class="sm:grid grid-cols-2 ">
+            <div class="flex bg-white rounded-2xl p-4 m-4 items-center shadow-2xl">
+              <div>
+                <img class="w-30 h-30  pr-5" src="images/house.png" alt="house">
+              </div>
+              
+              <div>
+                  <h2 class="text-4xl">Find the perfect fit</h2>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo error obcaecati aliquid odit, repudiandae voluptatibus!</p>
+              </div>
+            </div>
+            <div class="bg-white p-4 m-4 row-span-3 rounded-2xl shadow-2xl">
+              <img src="images/shopping.png" alt="shoping-img">
+            </div>
+            <div class="bg-white p-4 m-4 flex items-center rounded-2xl shadow-2xl">
+              <div>
+                <img class="w-30 h-30  pr-5" src="images/question.png" alt="question">
+              </div>
+              
+              <div>
+                  <h2 class="text-4xl">Find the perfect fit</h2>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo error obcaecati aliquid odit, repudiandae voluptatibus!</p>
+              </div>
+            </div>
+            <div class="bg-white p-4 m-4 flex items-center rounded-2xl shadow-2xl">
+                  <div>
+                    <img class="w-30 h-30 pr-5" src="images/house.png" alt="house">
+                  </div>
+                  
+                  <div>
+                      <h2 class="text-4xl">Find the perfect fit</h2>
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo error obcaecati aliquid odit, repudiandae voluptatibus!</p>
+                  </div>
+            </div>
+        </div>
   </section>
 
     </main>
