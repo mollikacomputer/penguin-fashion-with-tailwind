@@ -16,6 +16,7 @@
           colors: {
             clifford: '#da373d',
             penguin:'#FFFBF0',
+            price:'#FFFBF0',
           }
         }
       }
@@ -24,7 +25,7 @@
 </head>
 <body>
     <header class=" container mx-auto ">
-        <div class="bg-penguin sm:flex pb-32 pt-12 items-center">
+        <div class="bg-penguin sm:flex pb-32 pt-12 justify-between">
             <div>
               <h1 class="text-xl font-bold uppercase sm:text-3xl">
                 <span class="text-yellow-300 ">Be the penguin  </span> of winter
@@ -34,7 +35,6 @@
                   <i class="fas fa-cart-plus"></i>
                   Buy Now
                 </button>
-                  
             </div>
             <div>
               <img src="images/model.png" alt="girl-pic" class="object-cover w-1/2 sm:w-full" >
@@ -45,15 +45,23 @@
     <main class="container mx-auto">
       <!--start woman jackets  -->
       <section class="woman-jacket">
+        <h2 class="text-2xl">Woman Jacket</h2>
             <div class="grid grid-cols-3 gap-8">
-                <div class="py-4">
+                <div class="py-4 shadow-lg">
                   <img src="images/jacket-1.png" alt="girl-pic" class="object-cover  bg-slate-50 p-4 rounded-2xl" >
                   <h2 class="text-3xl py-4"> jacket 1</h2>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia explicabo exercitationem est, animi officia quibusdam?</p>
-                  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2    px-4 rounded">
-                    <i class="fas fa-cart-plus"></i>
-                    Buy Now
-                  </button>
+                  <div>
+                    <h2 class="text-5xl text-yellow-300">
+                      $249
+                    </h2>
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2    px-4 rounded">
+                      <i class="fas fa-cart-plus"></i>
+                      Buy Now
+                    </button>
+
+                  </div>
+
                 </div>
                 <div class="py-4">
                   <img src="images/jacket-2.png" alt="girl-pic" class="object-cover  bg-slate-50 p-4 rounded-2xl" >
